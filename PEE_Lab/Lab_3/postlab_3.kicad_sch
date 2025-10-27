@@ -987,6 +987,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 88.9) (xy 55.88 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "079deeb5-2010-42c0-960b-1d2d5ea2f835")
+	)
+	(wire
+		(pts
 			(xy 93.98 90.17) (xy 88.9 90.17)
 		)
 		(stroke
@@ -1027,16 +1037,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 92.71) (xy 73.66 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e30a24d-3d4b-4ef6-af5e-d151c69f5340")
-	)
-	(wire
-		(pts
 			(xy 66.04 88.9) (xy 73.66 88.9)
 		)
 		(stroke
@@ -1044,6 +1044,16 @@
 			(type default)
 		)
 		(uuid "a768c490-20d4-4aed-96ef-8ddd794e05cd")
+	)
+	(wire
+		(pts
+			(xy 55.88 92.71) (xy 73.66 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2b2edc0-c600-4833-a5b0-ec08f8de088f")
 	)
 	(wire
 		(pts
@@ -1074,16 +1084,6 @@
 			(type default)
 		)
 		(uuid "dffac893-4b7f-48ef-a4c3-18d1f438c8fa")
-	)
-	(wire
-		(pts
-			(xy 55.88 85.09) (xy 55.88 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3dd6623-d48c-444f-a58c-21d09c4a8c68")
 	)
 	(wire
 		(pts
@@ -1317,7 +1317,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Photo")
-		(at 55.88 88.9 0)
+		(at 66.04 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1325,8 +1325,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87611e9c-a5c1-4c13-8a61-2f0fab9a4024")
-		(property "Reference" "R2"
-			(at 58.42 87.6299 0)
+		(property "Reference" "R1"
+			(at 68.58 76.1999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1335,7 +1335,7 @@
 			)
 		)
 		(property "Value" "R_Photo"
-			(at 58.42 90.1699 0)
+			(at 68.58 78.7399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1344,7 +1344,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 95.25 90)
+			(at 67.31 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1354,7 +1354,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 55.88 90.17 0)
+			(at 66.04 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1363,7 +1363,7 @@
 			)
 		)
 		(property "Description" "Photoresistor"
-			(at 55.88 88.9 0)
+			(at 66.04 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1380,7 +1380,7 @@
 		(instances
 			(project ""
 				(path "/5f26b856-fcba-4d0f-ae75-d4c6d9b6ff63"
-					(reference "R2")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -1388,7 +1388,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 66.04 77.47 0)
+		(at 55.88 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1397,7 +1397,7 @@
 		(fields_autoplaced yes)
 		(uuid "8d455875-9ae5-4cbd-b5bd-209f633f55bd")
 		(property "Reference" "R3"
-			(at 68.58 76.1999 0)
+			(at 58.42 76.1999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1406,7 +1406,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 68.58 78.7399 0)
+			(at 58.42 78.7399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1415,7 +1415,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.262 77.47 90)
+			(at 54.102 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1424,7 +1424,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 66.04 77.47 0)
+			(at 55.88 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1433,7 +1433,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 66.04 77.47 0)
+			(at 55.88 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1524,7 +1524,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 55.88 77.47 0)
+		(at 55.88 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1532,8 +1532,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c2739f01-90d9-433f-b85d-b477f58742f8")
-		(property "Reference" "R1"
-			(at 58.42 76.1999 0)
+		(property "Reference" "R4"
+			(at 58.42 83.8199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1542,7 +1542,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 58.42 78.7399 0)
+			(at 58.42 86.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1551,7 +1551,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.102 77.47 90)
+			(at 54.102 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1560,7 +1560,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 55.88 77.47 0)
+			(at 55.88 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1569,7 +1569,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 55.88 77.47 0)
+			(at 55.88 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1586,7 +1586,7 @@
 		(instances
 			(project ""
 				(path "/5f26b856-fcba-4d0f-ae75-d4c6d9b6ff63"
-					(reference "R1")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -1745,7 +1745,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc634e42-8a04-49ef-8874-06269c6ed157")
-		(property "Reference" "R4"
+		(property "Reference" "R2"
 			(at 68.58 83.8199 0)
 			(effects
 				(font
@@ -1799,7 +1799,7 @@
 		(instances
 			(project "postlab_3"
 				(path "/5f26b856-fcba-4d0f-ae75-d4c6d9b6ff63"
-					(reference "R4")
+					(reference "R2")
 					(unit 1)
 				)
 			)
